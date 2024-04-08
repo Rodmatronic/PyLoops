@@ -1,6 +1,5 @@
 import tkinter as tk
 import pygame
-import pyflp
 from tkinter import ttk, filedialog
 from tkinter import *
 from PIL import Image, ImageTk
