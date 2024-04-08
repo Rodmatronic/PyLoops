@@ -14,13 +14,13 @@ class Light(tk.Canvas):
 
         # Create inactive state
         self.inactive_image = Image.open(inactive_image_path)  # Replace "your_inactive_image_path.jpg" with the path to your inactive image
-        self.inactive_image = self.inactive_image.resize((10, 10), Image.ANTIALIAS)
+        self.inactive_image = self.inactive_image.resize((10, 10))
         self.inactive_photo = ImageTk.PhotoImage(self.inactive_image)
         self.inactive_item = self.create_image(0, 0, anchor="nw", image=self.inactive_photo)
 
         # Create active state
         self.active_image = Image.open(active_image_path)  # Replace "your_active_image_path.jpg" with the path to your active image
-        self.active_image = self.active_image.resize((10, 10), Image.ANTIALIAS)
+        self.active_image = self.active_image.resize((10, 10))
         self.active_photo = ImageTk.PhotoImage(self.active_image)
         self.active_item = self.create_image(0, 0, anchor="nw", image=self.active_photo)
         
@@ -148,7 +148,7 @@ class Knob(tk.Canvas):
 
         # Load the knob image
         knob_image = Image.open("./UI/knob/knob.png")
-        knob_image = knob_image.resize((30, 30), Image.ANTIALIAS)
+        knob_image = knob_image.resize((30, 30))
         self.knob_image = ImageTk.PhotoImage(knob_image)
 
         # Draw the knob background image
