@@ -1,0 +1,10 @@
+1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0
+Instrument: 808 Rim
+0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0
+Instrument: Kick Drum
+0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1
+Instrument: 808 Clap
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Instrument: Snare
+bpm:130
+loop:True
